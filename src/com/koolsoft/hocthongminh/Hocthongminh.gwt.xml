@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module rename-to='hocthongminh'>
+
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name='com.google.gwt.user.theme.clean.Clean' />
+	<inherits name="com.google.gwt.activity.Activity" />
+	<inherits name="com.google.gwt.place.Place" />
+	<inherits name="org.gwtbootstrap3.GwtBootstrap3" />
+	<entry-point
+		class='com.koolsoft.hocthongminh.client.Hocthongminh' />
+	<source path='client' />
+	<source path='shared' />
+	<add-linker name="xsiframe" />
+</module>
